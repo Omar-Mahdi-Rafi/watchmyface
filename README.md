@@ -37,7 +37,11 @@ Your app is ready to be deployed!
 
 https://watchmyface.netlify.app
 
-## Temporary warning
+## Temporary warning !!
  
-The site works fine on any local machine. Due to the change of the facemesh package version that I used in this project, the scaledMash object is not returning data properly, the drawMesh() function is not being able to fillStyle the ctx. Thus the face landmark detection is not showing any lines. But if you inspect the site and check the console you will see the data is being fetched by reading the webcam and 'invisible'(colorless) landmarks are being plotted on the html canvas.
+The site works fine on any local machine. Due to the change of the facemesh package version that I used in this project, the scaledMash object is not returning data properly, the drawMesh() function is not being able to fillStyle the ctx. Thus the face landmark detection is not showing any lines. But if you inspect the site and check the console you will see the data is being fetched by reading the webcam and 'invisible'(colorless) landmarks are being plotted on the html canvas. The issue is being looked upon. We will resolve this soon.
+
+## Motive behind this project
+
+Getting introduced with tensorflow.js and playing with html canvas.
 
